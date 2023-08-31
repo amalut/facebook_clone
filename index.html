@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <link rel="stylesheet" href="fb.css" >
+    </head>
+    <body>
+        <div class="main">
+            <div class="top">
+                <div class="logo">
+                    <a class="logo_text" href="index.html">Facebook</a>
+                </div>
+                <div class="login">
+                    <form action="" >
+                     <table class="login_table">
+                        <tr class="log" >
+                            <td>Email or Mobile</td>
+                            <td>Password</td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><input class="button" type="submit" value="Login"></td>
+                        </tr>
+                        <tr >
+                            <td></td>
+                            <td><a class="forget" href="">Forgetten password?</a></td>
+                        </tr>
+                     </table>
+                    </form>
+                </div>
+            </div>
+            <div class="main_body">
+                <div class="left">
+                    <P class="par">Facebook helps you connect and share with the<br>people in your life.</P>
+                    <img class="image"  src="fb_logo.png" alt="logo of facebook">
+                </div>
+                <div class="right">
+                    <h1>Create an account</h1>
+                    <h4>It's quick and easy.</h4>
+                    <form name="signin" action="" id="signup-form">
+                        <input name="fname" class="inp1" type="text" placeholder="First name" autofocus="1">
+                        <input name="sname" class="inp1" type="text" placeholder="Surname"><br><br>
+                        <input name="email" class="inp2" type="text" placeholder="Mobile Number or email address"><br><br>
+                        <input name="password" class="inp2" type="password" placeholder="New password"><br>
+                        <p>Birthday:</p>
+                        <select name="Day">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option val="6">6</option>
+                        </select>
+                        <select name="Month">
+                            <option value="">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                        </select>
+                        <select name="Year">
+                            <option value="">Year</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                        </select>
+                        <p>Gender:</p>
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Custom<br>
+                        <p>By clicking signup,you agree to our <a href="" class="link">Terms</a> and that you have to read our<a class="link" href=""> Data Use Policy</a>,including our <a class="link" href="">Cookie Use.</a></p>
+                        <input class="signup" type="submit" value="Sign Up">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+        <script src="fb_jq.js"></script>
+    </body>
+
+</html>
